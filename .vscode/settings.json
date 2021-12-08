@@ -1,0 +1,17 @@
+{
+  "editor.formatOnSave": false,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.formatDocument"],
+  "[typescript]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.formatDocument"]
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": ["source.fixAll.eslint", "source.formatDocument"]
+  },
+  "[css]": {
+    "editor.codeActionsOnSave": ["source.fixAll.stylelint", "source.formatDocument"]
+  },
+  "[less]": {
+    "editor.codeActionsOnSave": ["source.fixAll.stylelint", "source.formatDocument"]
+  }
+}
